@@ -52,9 +52,6 @@ public class Grapher extends JPanel {
 						DecimalFormat df=new DecimalFormat("0.00");
 						double roundr = new Double(df.format(r)).doubleValue();
 						
-						System.out.println(r);
-						System.out.println(roundr);
-						
 						level3.add(new JLabel(Double.toString(roundr)));
 					}
 	
